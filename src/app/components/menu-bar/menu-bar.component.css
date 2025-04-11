@@ -1,0 +1,35 @@
+.logo {
+    height: 60px;
+    /* diminui o tamanho do logo */
+    width: auto;
+    margin-right: 20px; /* Afasta a logo da lista */
+}
+
+.container_menu-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-family:'Segoe UI'
+}
+
+.container_menu-bar>ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.container_menu-bar>ul>li {
+    /* list-style: none; */
+    margin: 0 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1.2em;
+    color: #333;
+    transition: color 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: #00acee;
+    transform: translateY(-2px);
+
+}

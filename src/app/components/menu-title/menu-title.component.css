@@ -1,0 +1,57 @@
+/* Estilização do Título */
+.menu-title {
+  .logo-text {
+    font-family: 'Arial';
+    /* font-size: 48px; */
+    font-weight: bolder;
+    letter-spacing: 15px;
+    font-style: italic;
+  }
+
+  .coff {
+    color: #F7EEE9;
+    /* marrom mais claro */
+    text-shadow:
+      -2px -2px 0 #4B2A14,
+       2px -2px 0 #4B2A14,
+      -2px 2px 0 #4B2A14,
+       2px 2px 0 #4B2A14,
+       0px 0px 0 #4B2A14;
+  }
+
+  .ampersand {
+    color: #E1B530;
+    /* amarelo queimado */
+    text-shadow:
+      -1px -1px 0 #4B2A14,
+       1px -1px 0 #4B2A14,
+      -1px 1px 0 #4B2A14,
+       1px 1px 0 #4B2A14,
+       0px 0px 0 #4B2A14;
+  }
+
+  .news {
+    color: #F7EEE9;
+    text-shadow:
+     -2px -2px 0 #4B2A14,
+      2px -2px 0 #4B2A14,
+     -2px 2px 0 #4B2A14,
+      2px 2px 0 #4B2A14,
+      0px 0px 0 #4B2A14;
+  }
+
+}
+
+/* Estilos Gerais */
+.menu-title>h1 {
+  margin-top: 10px;
+  font-size: 120px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.menu-title>hr {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
